@@ -13,7 +13,7 @@ const TestImage = ({type, imageName}) => {
   return (
     <View>
       <Image
-        style={{width: '100%', height: 200}}
+        style={{width: '100%', height: 300}}
         source={
           type === 'local'
             ? require('../assets/images/perfil-cochasoft.png')
