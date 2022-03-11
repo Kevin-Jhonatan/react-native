@@ -1,3 +1,4 @@
+import android.os.Bundle;
 package com.demo_react_native;
 
 import com.facebook.react.ReactActivity;
@@ -11,5 +12,9 @@ public class MainActivity extends ReactActivity {
   @Override
   protected String getMainComponentName() {
     return "demo_react_native";
+  }
+  @Override
+  protected void onCreate(Bundle savedInstanceState) {
+    super.onCreate(null);
   }
 }

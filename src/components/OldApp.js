@@ -20,6 +20,7 @@ import TestImage from './components/TestImage';
 import TestInput from './components/TestInput';
 import TextMultiline from './components/UselessTextInputMultiline';
 import TestBtn from './components/TestBtn';
+import {Box, Center} from 'native-base';
 
 /* Borramos todo e importamos un hook s*/
 const App = () => {
@@ -57,4 +58,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default OldApp;
